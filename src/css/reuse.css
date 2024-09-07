@@ -1,0 +1,88 @@
+.section {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* BUTTONS  ************************************************************************/
+.button-1 {
+  background-color: white;
+  color: black;
+  padding: 6px 12px;
+  font-size: var(--button);
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 24px;
+  font-family: nba;
+  width: fit-content;
+}
+
+/* PARAGRAPHS  **********************************************************************/
+.small-p {
+  text-transform: uppercase;
+  color: white;
+  font-size: var(--base-small);
+  line-height: 1.5;
+  font-family: nba;
+}
+
+.par-small {
+  font-family: nba;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+/* HEADINGS */
+.h1-big {
+  line-height: clamp(3.125rem, 1.75rem + 6.875vw, 8.625rem);
+  font-size: var(--title-big);
+  letter-spacing: clamp(-0.9rem, -0.2437rem + -0.6563vw, -0.375rem);
+  font-family: flexa;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
+.h1-big-xl {
+  font-size: clamp(5rem, 2.5rem + 12.5vw, 15rem);
+  line-height: clamp(4.375rem, 2.6875rem + 8.4375vw, 11.125rem);
+  letter-spacing: -1.2vw;
+  color: white;
+  font-family: flexa;
+  text-transform: uppercase;
+}
+
+/* SPACING */
+
+/* FLEX BOX */
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* GRID */
+
+/* IMAGES */
+.h1-big-img {
+  height: clamp(2.75rem, 1.5938rem + 5.7813vw, 7.375rem);
+  width: clamp(2.75rem, 1.5938rem + 5.7813vw, 7.375rem);
+  object-fit: cover;
+  justify-self: baseline;
+  object-position: center;
+  margin-right: 12px;
+}
+
+/* VIDEOS */
+.video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -100;
+  object-fit: cover;
+  object-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
