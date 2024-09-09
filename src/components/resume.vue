@@ -24,7 +24,7 @@
         a designer has to have a hobby aye !!
       </p>
       <a
-        href="https://docs.google.com/document/d/1QDSKrZ4xHIwQlEdIpCtOKT5_2gkb-9ZGmHpoBmr8GQ4/edit?usp=sharing"
+        href="https://drive.google.com/file/d/1EUunU1zaLG-rhEkmOLdwpvpIiGxj1AGz/view?usp=drive_link"
         target="_blank"
         class="button-1"
         >download resume</a
