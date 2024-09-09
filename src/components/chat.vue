@@ -9,7 +9,7 @@
       </p>
       <div class="chat-links">
         <p class="par-small">email me at</p>
-        <p class="par-small under">m.karekezi@gmail.com</p>
+        <p class="par-small under">m.karekezii@gmail.com</p>
       </div>
     </div>
 
