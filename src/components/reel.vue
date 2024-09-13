@@ -3,9 +3,12 @@
 <template>
   <div class="fixed_reel">
     <a href="#" class="top">back on top</a>
-    <video src="../assets/video/Web reel.mp4" muted loop autoplay></video>
+    <img src="../assets/gif/hero-back.gif" alt="" />
     <div class="fixed_reel_p">
-      <p>hey am mugisha joel a user experience and motion designer based in kigali rwanda</p>
+      <p>
+        hey am mugisha joel a user experience and motion designer based in
+        kigali rwanda
+      </p>
     </div>
   </div>
 </template>
@@ -18,6 +21,7 @@
 * {
   box-sizing: border-box;
 }
+
 .top {
   padding: 4px 8px;
   background-color: black;
@@ -47,7 +51,7 @@
     z-index: 10000;
     margin: 12px;
 
-    video {
+    img {
       height: 50vh;
       width: 100%;
       object-fit: cover;
@@ -83,7 +87,7 @@
     font-family: nba;
     line-height: 1.3;
 
-    video {
+    img {
       height: 261px;
       width: 100%;
       object-fit: fill;
